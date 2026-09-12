@@ -1,0 +1,17 @@
+# Python caches
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+
+# Environment variables (secrets)
+.env
+
+# Local Databases
+app.db
+chroma_db/
+
+# Temporary upload files
+temp_*

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Concierge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app-shell">
+        <nav class="topbar" aria-label="Product search navigation">
+            <h1>Search for product</h1>
+                <a class="brand" href="." aria-label="AI Product Concierge home">
+                    <span class="brand-mark" aria-hidden="true">+</span>
+                    <span>AI Product Concierge</span>
+                </a>
+
+            <form id="user" class="search-form">
+                <label class="sr-only" for="searchInput"></label>
+                    <input
+                    id="searchInput"
+                    type="text"
+                    name="product"
+                    placeholder="What kind of product do you want?"
+                        autocomplete="off" />
+                    <button class="send-btn" type="submit">
+                        <span>Search</span>
+                        <span aria-hidden="true">&#8594;</span>
+                    </button>
+            </form>
+        </nav>
+
+            <section class="hero" aria-labelledby="page-title">
+                <div class="hero-card">
+                    <span class="eyebrow">Personalized product discovery</span>
+                    <h1 id="page-title">Find the right thing, without the rabbit hole.</h1>
+                    <p>Tell the concierge what you need in plain language. It will narrow the catalog by intent, category, and budget.</p>
+                    <div class="hero-metrics" aria-label="Search capabilities">
+                        <div class="metric"><strong>Natural</strong><span>Ask conversationally</span></div>
+                        <div class="metric"><strong>Focused</strong><span>Relevant matches only</span></div>
+                        <div class="metric"><strong>Fast</strong><span>Results in seconds</span></div>
+                    </div>
+                </div>
+                <aside class="assistant-panel panel" aria-label="Concierge status">
+                    <div class="assistant-header">
+                        <div>
+                            <span class="eyebrow">Concierge</span>
+                            <h2>Ready when you are</h2>
+                        </div>
+                        <span class="status-badge"><span class="status-dot"></span>Online</span>
+                    </div>
+                    <div class="recommendation">
+                        <h3>Try a specific brief</h3>
+                        <p>"I need affordable footwear for rainy commutes."</p>
+                        <span class="product-tag">Example query</span>
+                    </div>
+                </aside>
+            </section>
+
+            <section class="main-content" aria-labelledby="results-title">
+                <div>
+                    <div class="section-header">
+                        <div>
+                            <span class="eyebrow">Catalog matches</span>
+                            <h2 id="results-title">Your recommendations</h2>
+                        </div>
+                        <span id="result-count" class="result-count">Waiting for a search</span>
+                    </div>
+                    <div id="results" class="products-grid" aria-live="polite" aria-busy="false">
+                        <div class="empty-state">
+                            <span class="empty-icon" aria-hidden="true">&#8599;</span>
+                            <h3>Your next find starts here</h3>
+                            <p>Use the search field above to describe what you are looking for.</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

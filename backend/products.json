@@ -1,0 +1,177 @@
+[
+  {
+    "id": "prod_1",
+    "name": "Summit Waterproof Hiking Boots",
+    "description": "Durable, waterproof Gore-Tex hiking boots with excellent ankle support. Perfect for wet climates and rocky terrain. Features a Vibram outsole for maximum grip.",
+    "category": "footwear",
+    "price": 145.00
+  },
+  {
+    "id": "prod_2",
+    "name": "Trailblazer Daypack 25L",
+    "description": "Lightweight 25-liter daypack with a breathable mesh back panel. Includes a hydration sleeve and multiple quick-access pockets for day hikes.",
+    "category": "gear",
+    "price": 85.50
+  },
+  {
+    "id": "prod_3",
+    "name": "Cascade Rain Jacket",
+    "description": "Ultra-lightweight, packable rain jacket. Fully seam-taped and windproof. Ideal for unpredictable weather and layering.",
+    "category": "apparel",
+    "price": 110.00
+  },
+  {
+    "id": "prod_4",
+    "name": "Basecamp 2-Person Tent",
+    "description": "Spacious 2-person, 3-season freestanding tent. Easy setup with color-coded aluminum poles. Includes a rainfly and dual vestibules.",
+    "category": "gear",
+    "price": 220.00
+  },
+  {
+    "id": "prod_5",
+    "name": "Alpine Trekking Poles",
+    "description": "Adjustable carbon fiber trekking poles with cork grips. Shock-absorbing and incredibly lightweight to reduce knee strain on descents.",
+    "category": "gear",
+    "price": 65.00
+  },
+  {
+    "id": "prod_6",
+    "name": "Glacier Down Sleeping Bag",
+    "description": "20-degree rated goose down sleeping bag with a mummy cut for maximum warmth-to-weight ratio. Compresses small for easy packing.",
+    "category": "gear",
+    "price": 189.99
+  },
+  {
+    "id": "prod_7",
+    "name": "Ridgeline Fleece Pullover",
+    "description": "Midweight fleece pullover made from recycled polyester. Soft brushed interior for warmth without bulk, great as a mid-layer.",
+    "category": "apparel",
+    "price": 58.00
+  },
+  {
+    "id": "prod_8",
+    "name": "Backcountry Water Filter",
+    "description": "Compact hollow-fiber water filter that removes 99.9% of bacteria and protozoa. Filters up to 1000 liters before replacement.",
+    "category": "gear",
+    "price": 39.95
+  },
+  {
+    "id": "prod_9",
+    "name": "Summit Insulated Gloves",
+    "description": "Waterproof, touchscreen-compatible insulated gloves rated for sub-zero temperatures. Reinforced palm for grip on cold, wet trails.",
+    "category": "apparel",
+    "price": 42.50
+  },
+  {
+    "id": "prod_10",
+    "name": "Voyager Camp Stove",
+    "description": "Ultralight titanium backpacking stove that boils water in under 3 minutes. Folds flat and fits inside most cookware sets.",
+    "category": "gear",
+    "price": 54.00
+  },
+  {
+    "id": "prod_11",
+    "name": "Highland Trail Running Shoes",
+    "description": "Breathable trail running shoes with aggressive lug pattern for loose terrain. Rock plate protects feet on technical trails.",
+    "category": "footwear",
+    "price": 128.00
+  },
+  {
+    "id": "prod_12",
+    "name": "Expedition Base Layer Top",
+    "description": "Merino wool base layer that regulates temperature and resists odor on multi-day trips. Flatlock seams prevent chafing.",
+    "category": "apparel",
+    "price": 72.00
+  },
+  {
+    "id": "prod_13",
+    "name": "Pinnacle Headlamp 400",
+    "description": "Rechargeable LED headlamp with 400-lumen max output and red night-vision mode. Lightweight, weatherproof housing.",
+    "category": "gear",
+    "price": 34.99
+  },
+  {
+    "id": "prod_14",
+    "name": "Ridgeback Sun Hat",
+    "description": "Wide-brim UPF 50+ sun hat with adjustable chin strap and ventilated mesh crown for hot, exposed trails.",
+    "category": "apparel",
+    "price": 28.00
+  },
+  {
+    "id": "prod_15",
+    "name": "Timberline Camp Chair",
+    "description": "Packable aluminum-frame camp chair supporting up to 300 lbs. Sets up in seconds and fits inside its own stuff sack.",
+    "category": "gear",
+    "price": 49.99
+  },
+  {
+    "id": "prod_16",
+    "name": "Frostline Insulated Jacket",
+    "description": "Synthetic-insulated puffer jacket that retains warmth even when wet. Packs down into its own chest pocket.",
+    "category": "apparel",
+    "price": 165.00
+  },
+  {
+    "id": "prod_17",
+    "name": "Canyon Crossing Sandals",
+    "description": "Quick-drying river sandals with a grippy rubber outsole, built for stream crossings and camp downtime.",
+    "category": "footwear",
+    "price": 55.00
+  },
+  {
+    "id": "prod_18",
+    "name": "Alpine Ice Axe",
+    "description": "Lightweight aluminum ice axe designed for glacier travel and steep snow slopes. Includes a wrist leash and rubber spike guard.",
+    "category": "gear",
+    "price": 89.00
+  },
+  {
+    "id": "prod_19",
+    "name": "Wanderer Compression Sacks (3-Pack)",
+    "description": "Set of three nylon compression sacks in varying sizes to shrink bulky clothing and sleeping bags for efficient packing.",
+    "category": "gear",
+    "price": 24.99
+  },
+  {
+    "id": "prod_20",
+    "name": "Northface Thermal Beanie",
+    "description": "Snug-fitting merino blend beanie that traps heat without overheating your head on cold-weather hikes.",
+    "category": "apparel",
+    "price": 19.99
+  },
+  {
+    "id": "prod_21",
+    "name": "Ranger GPS Wristwatch",
+    "description": "Rugged GPS watch with altimeter, barometer, and compass. Tracks routes offline for up to 20 hours of battery life.",
+    "category": "gear",
+    "price": 299.00
+  },
+  {
+    "id": "prod_22",
+    "name": "Pathfinder Convertible Pants",
+    "description": "Quick-dry hiking pants that zip off into shorts. Articulated knees for mobility and a gusseted crotch for scrambling.",
+    "category": "apparel",
+    "price": 68.00
+  },
+  {
+    "id": "prod_23",
+    "name": "Summit Bivy Sack",
+    "description": "Emergency waterproof bivy sack designed to fit over a sleeping bag for unplanned overnight shelter in the backcountry.",
+    "category": "gear",
+    "price": 44.00
+  },
+  {
+    "id": "prod_24",
+    "name": "Cross-Country Ski Poles",
+    "description": "Lightweight aluminum ski poles with adjustable straps and wide baskets for deep snow stability.",
+    "category": "gear",
+    "price": 47.50
+  },
+  {
+    "id": "prod_25",
+    "name": "Everest Approach Shoes",
+    "description": "Sticky-rubber approach shoes built for scrambling and mixed terrain, with a low-profile design for climbing precision.",
+    "category": "footwear",
+    "price": 135.00
+  }
+]
