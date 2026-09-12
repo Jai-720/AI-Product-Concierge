@@ -1,5 +1,9 @@
 1. System Overview
 
+![AI Product Concierge Search Interface](assets/homepage.png)
+
+![AI Product Concierge Search results](assets/search_results.png)
+
 The frontend captures a user's natural language query via an HTML form and sends it to the backend using a JavaScript fetch() POST request. FastAPI receives this payload, and an LLM extracts the specific intent (such as category and max price) into a strictly validated Pydantic object. This structured data is used to query a ChromaDB vector database using metadata filters (like $lte for price limits). The matched products are formatted into a clean array and returned to the frontend, where JavaScript dynamically renders the HTML UI.
 
 2. The Hardest Bugs
