@@ -1,12 +1,3 @@
-# 1. Import chromadb, BaseModel/Field, load_dotenv, and ChatGoogleGenerativeAI.
-# 2. Call load_dotenv().
-# 3. Define the 'ProductIntent' Pydantic model (search_query, category, max_price).
-# 4. Initialize the LLM (gemini-2.5-flash) and bind it to ProductIntent.
-# 5. Initialize the ChromaDB client and get the "products" collection.
-# 6. Define a function: def execute_search(user_text: str):
-# 7. Inside execute_search: Pass user_text to the LLM to get the intent.
-# 8. Inside execute_search: Build the $and filter if conditions exist.
-# 9. Inside execute_search: Query the ChromaDB collection and return the results.
 import chromadb
 from langchain_google_genai import ChatGoogleGenerativeAI
 from pydantic import BaseModel,Field
